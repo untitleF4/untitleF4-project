@@ -1,4 +1,7 @@
 @charset "utf-8";
+html {
+  scroll-behavior: smooth;
+}
 body{
   margin: 0 ;
   font-family: Poppins,Pretendard,sans-serif;
