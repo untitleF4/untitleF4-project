@@ -4,10 +4,10 @@ html {
 }
 body{
   margin: 0 ;
-  font-family: Poppins,Pretendard,sans-serif;
+  font-family: "Poppins","Pretendard",sans-serif;
 }
 .wrap_header header {
-  font-family: "Pretendard", sans-serif;
+  font-family: "Poppins","Pretendard", sans-serif;
   font-size: 17px;
   font-weight: 500;
   width: 100%;
