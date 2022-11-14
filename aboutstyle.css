@@ -225,8 +225,8 @@ ul li {
   margin: 5px;
 }
 .services .span_wrap a {
-  text-decoration: none;
   color:#b0b0b0 ;
+  text-decoration: none;
 }
 .arrow_wrap {
   display: flex;
