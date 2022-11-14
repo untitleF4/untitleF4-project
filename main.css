@@ -5,7 +5,7 @@
 
     html {
       scroll-behavior: smooth;
-    }
+     }
 
     body{
         font-family: "Poppins","Pretendard",sans-serif;
@@ -336,7 +336,7 @@ div.wrap_content3{
         
             .main-banner_title{
                 margin: 0 0 14px;
-                font-family: "Poppins","Pretendard",sans-serif;
+                font-family: 'Poppins',"Pretendard",sans-serif;
                 font-weight: 700;
                 font-size: 24px;
                 letter-spacing: -0.06rem;
