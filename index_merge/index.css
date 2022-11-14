@@ -1,0 +1,502 @@
+@charset "UTF-8";
+/* 공통 */
+body{
+  font-family: "Poppins","Pretendard",sans-serif;
+  margin: 0;
+
+  min-width: 320px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  /* color: #222; */
+  background: #fff;
+  word-break: keep-all;
+  }
+  
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    }
+
+/* header ************************************************/
+
+.wrap_header header {
+  font-family: "Pretendard", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+  box-shadow: 0 1px 10px 1px rgba(68, 68, 68, 0.1);
+  padding: 0 20px;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrap_header header h1 {
+  width: 125px;
+  height: 30px;
+  background: url(./images/logo.png) no-repeat center center;
+  background-size: 100% auto;
+}
+.wrap_header header ul {
+  font-size: 17px;
+  font-weight: 500;
+  max-width: 900px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.wrap_header header ul li {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 auto;
+}
+.wrap_header header ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+.wrap_header header ul li a p {
+  color: #222;
+  position: relative;
+}
+.wrap_header header ul li a p::after {
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: #444;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  transition: 0.2s;
+  opacity: 0;
+}
+.wrap_header header ul li a p:hover::after {
+  width: 100%;
+  opacity: 1;
+}
+
+
+/* content1_kha ******************************************/
+
+.kha #element{
+  margin-left: 235px ;
+  width: 700px;
+
+} 
+
+  .kha #box p.eve{
+      font-size: 74px;
+      margin: 0px 0;
+      font-family: 'Godo','Notokr',sans-serif;
+      font-weight: 900;
+ 
+  }
+ .kha #box p{
+      font-size: 22px;
+      color:white;
+  }
+
+  .kha #box{
+      background-image: url(./images/221018_tong_main.jpg);
+      background-size: cover;
+      width: 100%;
+      height: 100vh;  
+      display: flex;
+      flex-flow: column ;
+      
+  }
+
+  .kha #box button{
+      height: 60px; width: 60px;
+      border-radius: 50px;
+      border: none;
+      background-color: rgba(250,250,250,0.2);
+      font-size: 35px;
+      text-indent: 3px;
+      color:rgba(250,250,250,0.5);
+      display: inline-block;
+      margin: 240px 0 30px 10px ;
+      
+  }
+
+  .kha #box a{
+      display: block;
+      background-color: none;
+      padding: 15px 0 5px 0  ; 
+      border: rgba(250,250,250,0.7) solid 1px;
+      width: 220px; height: 50px;
+      text-align: center;
+      font-weight: bold;
+      font-size: 17px;
+      text-decoration: none;
+      color:white;
+      margin: 55px 0 100px 0;
+ 
+
+  }
+  .kha #box a .material-symbols-outlined{
+      padding-left: 30px;
+  }
+  .kha #box ul{
+      padding: 0;
+      /* list-style: none; */
+      
+  }
+  .kha #box ul li{
+      
+      float: left;
+      border-bottom: rgba(250,250,250,0.5) solid 2px;
+      padding: 4px;
+      width: 70px;
+      color:rgba(250,250,250,0.5);
+      font-weight: bold;
+      font-size: 14px;
+
+  }
+
+  a .material-symbols-outlined{
+    vertical-align: bottom;
+
+  }
+
+
+/* content2__yoom ****************************************/
+
+h3 {
+  font-family: "Pretendard", "Godo", 돋움, sans-serif;
+  font-weight: 700;
+  font-size: 38px;
+  color: #222222;
+  text-align: center;
+  margin: 100px 30px 30px 30px;
+  }
+  h3 em {
+  font-family: "Godo", "Pretendard", 돋움, sans-serif;
+  font-weight: 700;
+  font-size: 38px;
+  color: #3a68b3;
+  font-style: normal;
+  }
+
+  .sym {
+  margin: 0 auto;
+  margin-bottom: 180px;
+  width: 1420px;
+  overflow: hidden;
+  }
+  .sym div {
+  padding: 40px;
+  }
+  .sym div a {
+  clear: both;
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  position: relative;
+  color: white;
+  }
+  .sym div h4 {
+  position: absolute;
+  bottom: 85px;
+  left: 0;
+  font-family: "Pretendard", "Godo", 돋움, sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  }
+  .sym div p {
+  position: absolute;
+  bottom: 55px;
+  left: 0;
+  font-family: "Pretendard-light", "Pretendard", "Godo", 돋움, sans-serif;
+  font-size: 17px;
+  font-weight: 100;
+  color: rgba(255, 255, 255, 0.74);
+  }
+  .sym div .box {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border: solid 1px rgba(255, 255, 255, 0.5);
+  /* padding: 10px 20px; */
+  padding: 10px 40px 10px 20px;
+  }
+
+  .title1 {
+  float: left;
+  background: url(./images/main_service_img1.jpg) no-repeat 0 0/cover;
+  width: 700px;
+  height: 680px;
+  margin-right: 20px;
+  }
+
+  .title2 {
+  float: right;
+  background: url(./images/main_service_img2.jpg) no-repeat 0 0/cover;
+  width: 700px;
+  height: 330px;
+  margin-bottom: 20px;
+  }
+
+  .title3 {
+  float: right;
+  background: url(./images/main_service_img3.jpg) no-repeat 0 0/cover;
+  width: 700px;
+  height: 330px;
+  }
+
+
+/* content3__mhj *****************************************/
+
+.wrap_content3 main .content_box {
+  max-width: 1460px;
+  margin: 0 auto 240px;
+  padding: 20px;
+  display: flex;
+  text-align: left;
+}
+.wrap_content3 main .content_box h3 {
+  font-size: 34px;
+  text-align: left;
+  margin: 0 0 40px;
+  width: 50%;
+}
+.wrap_content3 main .content_box h3 span {
+  font-family: "Godo", "notokr";
+  font-size: 44px;
+  color: #3a68b2;
+}
+.wrap_content3 main .content_box .txtBox {
+  font-family: "Pretendard";
+  width: 50%;
+}
+.wrap_content3 main .content_box .txtBox h4 {
+  font-size: 28px;
+  font-weight: 500;
+  margin: 0 0 30px;
+}
+.wrap_content3 main .content_box .txtBox h4 span {
+  font-weight: 700;
+  color: #3a68b2;
+}
+.wrap_content3 main .content_box .txtBox p {
+  margin: 0 0 25px;
+}
+.wrap_content3 main .content_box .txtBox a {
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  margin: 90px auto 0 0;
+  padding: 0 10px;
+  max-width: 140px;
+  width: 100%;
+  height: 50px;
+  border-bottom: rgb(34, 34, 34) 2px solid;
+}
+
+
+/* content4__jisun ***************************************/
+/* Banner */
+
+        /* {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            }*/
+        
+            .jisun {
+              font-size: 100%;
+              border: 0;
+              display: block;     
+              }
+          
+              .jisun div {
+              display: block;
+              }
+          
+              .jisun .main-banner_link {
+              display: block;
+              position: relative;
+              min-height: 400px;
+              padding: 85px 60px;
+              border-right: 1px solid #dadfe6;
+              background-color: #eee;
+              transition: background-color .3s,color .3s;
+              }
+          
+              .jisun .main-banner {
+              position: relative;
+              border-top: 1px solid #dadfe6;
+              }
+          
+              .jisun .main-banner_link{
+                  color:#222;
+                  padding: 40px;  /*텍스트 안쪽여백*/
+                  max-width: 1600px;
+  
+  
+              }
+              .jisun .main-banner_item {
+                  /* list-style: none; */
+                  width: 697px; height: 400px;
+                  /* color:#222; */
+              }
+             
+          
+              .jisun a{
+                  text-decoration: none;
+                  line-height: 1.5em;
+                  word-break: keep-all;
+              }
+          
+          
+              /* h1.main-banner_title, div.main-banner_more {
+                  color:#222;
+              } */
+            
+          
+              .main-banner_title{
+                  margin: 0 0 14px;
+                  font-family: 'Poppins',sans-serif;
+                  font-weight: 700;
+                  font-size: 24px;
+                  letter-spacing: -0.06rem;
+              }
+          
+              .main-banner_desc {
+             /* color:#474747;*/
+              font-weight: 400;
+              font-size: 17px;
+              margin: 0 0 42px;
+              }
+          
+              .main-banner_link::after {
+              width: 70%;
+              right: 0;
+              }
+          
+              .main-banner_link::after {
+              content: "";
+              display: block;
+              position: absolute;
+              right: 0;
+              bottom: 0;
+              width: 100%;
+              min-height: 100%;
+              background-repeat: no-repeat;
+              background-position: bottom right;
+              background-size: contain;
+          }
+          
+          
+              .swiper-wrapper {
+                  position: relative;
+                  width: 100%;
+                  height: 100%;
+                  z-index: 1;
+                  display: flex;
+                  transition-property: transform;
+                  box-sizing: content-box;
+              }
+          
+              .main-banner_more {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              width: 90px;
+              height: 50px;
+              font-size: 15px;
+              font-weight: 600;
+              border-bottom: 2px solid #222;
+              letter-spacing: -1px;
+              transition: border;
+          
+              }
+          
+              .main-banner_link.members::after {
+              right: -30px;
+              bottom: 10px;
+              max-width: 304px;
+              background-image: url(./images/main_banner_figure1.png);
+              }
+          
+          
+              .main-banner_link.members:hover {
+                  color:#fff;
+                  background-color:#3891b2;
+                  border-bottom: 2px solid #fff;
+              
+              }
+          
+              .main-banner_link.talk::after {
+                  max-width: 317px;
+                  background-image: url(./images/main_banner_figure2.png);
+          
+              }
+          
+              .main-banner .main-banner_box .main-banner_link.talk:hover {
+                  background-color: #db574f;
+                  color:#fff;
+                  border-bottom: 2px solid #fff;
+              }
+          
+              .main-banner_link.travel::after {
+              max-width: 299px;
+              background-image: url(./images/main_banner_figure3.png);
+              }
+          
+              .main-banner_link.travel:hover{
+                  background-color: #f0b23a;
+                  color:#fff;
+              }
+
+
+/* footer__mhj *******************************************/
+
+footer {
+  font-family: "Pretendard", "Poppins", sans-serif;
+  background-color: #222;
+  color: rgb(102, 102, 102);
+  padding: 60px 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+footer .footer_box {
+  width: 100%;
+}
+footer .footer_box a {
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  right: 60px;
+  bottom: 60px;
+  background-image: url(./images/arrow_top.png);
+  background-size: 100%;
+}
+footer .footer_box ul {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  line-height: 1.7;
+}
+footer .footer_box ul li {
+  font-size: 15px;
+  color: rgb(102, 102, 102);
+  padding: 0 18px;
+}
+footer .footer_box .copy {
+  font-size: 14px;
+  margin: 50px 0 0;
+  color: rgb(68, 68, 68);
+}

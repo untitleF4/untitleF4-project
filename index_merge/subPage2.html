@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width">
+  <title>제휴문의</title>
+
+  <link rel="stylesheet" href="./common.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./fonts.css">
+  <link rel="stylesheet" href="./subPage2.css">
+
+  <style>
+    body {
+      font-family: "Poppins", "Pretendard", sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="./index.html"><h1></h1></a>
+    <ul>
+      <li><a href="./aboutus.html"><p>ABOUT US</p></a></li>
+      <li><a href="#"><p>제휴문의</p></a></li>
+      <li><a href="./Lunch_box_members.html"><p>도시락멤버스</p></a></li>
+      <li><a href="#"><p>와이파이도시락</p></a></li>
+      <li><a href="#"><p>도시락유심</p></a></li>
+      <li><a href="#"><p>도시락eSIM</p></a></li>
+    </ul>
+  </header>
+
+  <main>
+    <section class="sub_content1">
+      <div class="sub_content1_title">
+        <h3>제휴문의</h3>
+        <p>함께할 수 있는 다양한 제안을기다립니다.</p>
+      </div>
+      <div class="sub_content1_img">
+        <img src="./images/inquiry_visual.png"alt="inquiry_visual">
+      </div>
+    </section>
+    <section class="sub_content2">
+      <form>
+        <ul class="content2_list">
+          <li class="name">
+            <label for="user_name">회사(담당자)명 <span class="color">*</span></label>
+            <input type="text" id="user_name"autocomplete="off">
+          </li>
+          <li class="tel">
+            <label for="user_tel">연락처 <span class="color">*</span></label>
+            <input type="text" id="user_tel"autocomplete="off"placeholder="'-'를 제외한 숫자만입력">
+          </li>
+          <li class="email">
+            <label for="user_email">이메일 <span class="color">*</span></label>
+            <div class="email_input">
+              <input type="text"id="user_email_1"class="userEmail1">
+              <input type="text"id="user_email_2"class="userEmail2">
+              <div class="userEmail3">
+                <select name=”manu”>
+                  <option value=”선택1”>직접입력</option>
+                  <option value=”선택2”>naver.com</option>
+                  <option value=”선택3”>gmail.com</option>
+                  <option value=”선택4”>nate.com</option>
+                  <option value=”선택5”>kakao.com</option>
+                  <option value=”선택6”>daum.net</option>
+                </select>
+              </div>
+            </div>
+          </li>
+          <li class="sort">
+            <label for="user_sort">문의유형 <span class="color">*</span></label><br>
+            <select name="manu">
+              <option value=”선택1”><option>
+              <option value=”선택2”>제휴문의<option>
+              <option value=”선택3”>광고/마케팅<option>
+              <option value=”선택4”>법인고객문의<option>
+              <option value=”선택5”>총판/대리점문의<option>
+              <option value=”선택6”>기타문의<option>
+            </select>
+          </li>
+          <li class="text">
+            <label for="user_text">내용 <span class="color">*</span></label>
+            <textarea name="" id="user_text"cols="30" rows="10"></textarea>
+          </li>
+          <li class="db">
+            <label for="user_db">개인정보 수집이용동의 <span class="color">*</span></label>
+            <textarea name="db" id="user_db" cols="30"rows="10" disabled>
+              1. 수집 주체 : (주)와이드모바일
+              2. 수집 목적 : 제휴제안 접수 및 처리결과 회신
+              3. 수집 항목 : 담당자명, 이메일,연락처
+              4. 보유 기간 : 문의 상담 완료 후 즉시 폐기
+              
+            </textarea>
+            <button type="button" class="checbox"><img src="./images/agree.png" alt=""> 개인정보 수집에 동의합니다.</button>
+          </li>
+        </ul>
+      </form>
+      <div class="submit">
+        <button type="submit"id="btn_submit">등록하기</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer_box">
+      <a href="#"><span class="img"></span></a>
+      <ul>
+        <li>상호:(주)와이드모바일</li><span>│</span>
+        <li>대표:김만중</li><span>│</span>
+        <li>통신판매업신고번호:제2018-서울서대문-0301호</li><span>│</span>
+        <li>사업자등록번호:121-81-66458</li>
+      </ul>
+      <p class="service">고객센터 : 1566-9070(운영시간 9:00~18:00, 주말/ 공휴일/점심12:00~13:00 제외)</p>
+      <p class="copy">Copyright © WIDEMOBILEINC. Allright Reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>

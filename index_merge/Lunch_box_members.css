@@ -1,0 +1,327 @@
+@charset "utf-8";
+body{
+  margin: 0 ;
+  font-family: Poppins,Pretendard,sans-serif;
+}
+.wrap_header header {
+  font-family: "Pretendard", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+  box-shadow: 0 1px 10px 1px rgba(68, 68, 68, 0.1);
+  padding: 0 20px;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 99;
+}
+.wrap_header header h1 {
+  width: 125px;
+  height: 30px;
+  background: url(./images/logo.png) no-repeat center center;
+  background-size: 100% auto;
+}
+.wrap_header header ul {
+  font-size: 17px;
+  font-weight: 500;
+  max-width: 900px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.wrap_header header ul li {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 auto;
+}
+.wrap_header header ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+.wrap_header header ul li a p {
+  color: #222;
+  position: relative;
+}
+.wrap_header header ul li a p::after {
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: #444;
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  transition: 0.2s;
+  opacity: 0;
+}
+.wrap_header header ul li a p:hover::after {
+  width: 100%;
+  opacity: 1;
+}
+.wrap_footer footer {
+  font-family: "Pretendard", "Poppins", sans-serif;
+  font-size: 16px;
+  background-color: #222;
+  color: rgb(102, 102, 102);
+  padding: 60px 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.wrap_footer footer .footer_box {
+  width: 100%;
+}
+.wrap_footer footer .footer_box a {
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  right: 60px;
+  bottom: 60px;
+  background-image: url(./images/arrow_top.png);
+  background-size: 100%;
+  z-index: 9999999;
+}
+.wrap_footer footer .footer_box ul {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  line-height: 1.7;
+  
+}
+.wrap_footer footer .footer_box ul li {
+  font-size: 15px;
+  color: rgb(102, 102, 102);
+  padding: 0 5px;
+
+ 
+}
+.wrap_footer footer .footer_box .copy {
+  font-size: 14px;
+  margin: 50px 0 0;
+  color: rgb(68, 68, 68);
+}
+
+.wrap_footer footer span{
+ margin-left: 5px;
+}
+
+.top{
+  background-image: linear-gradient(#5cb1f4,#88d0fb);
+  width: 100%; height: 629px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden; 
+}
+.top img{
+  position: absolute;
+  top: 124px;
+  right: 240px;
+  z-index: 9;
+}	
+@media screen and (max-width: 1300px) {
+  .top> img {
+    display: none;
+  }
+}
+.top h1{
+  font-size: 5.5vmin; 
+  font-family: 'Godo','Notokr',sans-serif;
+  position: absolute;
+  top:250px; left: 250px;
+  color: white;
+  line-height: 1.3;
+}
+@media screen and (max-width: 1000px) {
+  .top h1 {
+  left: 170px;
+  }
+}
+.top_tit{ 
+  letter-spacing:0.1px;
+  font-size: 42px;
+  font-weight:500 ;
+  padding: 160px 0 0;
+  margin: 0;
+  text-align: center;
+  background-color: #f5fcff;
+}
+.container{
+  height: 735px;
+  padding-bottom:205px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5fcff;
+}
+.container p{
+  margin:  0;
+  font-size: 16px;
+}
+.container .img figure{
+  width: 450px;
+  height: 320px;
+  margin: 50px 10px;
+  border-radius: 10px ;
+  font-size: 16px;
+}
+.container .img1 figure{
+  background-color:#9bddff;
+}
+.container .img2 figure{
+  background-color: #f4c0cc;
+}
+.container .img3 figure{
+  background-color: #d9bbef ;
+}
+.container .img h4{
+  margin: 28px 0 13px 0;
+  font-size: 22px;
+}
+.container2{
+  width: 100%;
+  height: 760px;
+  position: relative;
+  background-color: white;
+  overflow: hidden;
+}
+.container2 h5{
+  margin: auto;
+  text-align: left;
+  width: 400px;
+  font-size: 38px;
+  position: absolute;
+  left: 220px; bottom: 210px;
+  z-index: 9;
+  font-size: 46px;
+}
+.container2 h5 span::after{
+    content: "";
+    width: 70%; height: 30px;
+    background-color: #e2e9f3;
+    position: absolute;
+    bottom: 5px; left: 0;
+    z-index: -1;
+}
+@media screen and (max-width: 1500px) {
+  .container2 h5 {
+   display: none;
+  }
+} 
+.container2 .cir {
+  position: absolute;
+  top: 55%; left:30%;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  align-self: flex-end;
+  z-index: 99999;
+  animation: scale5 3s forwards alternate;
+}
+.container2 .cir li{
+  width: 200px; height: 200px;
+  border-radius: 50%;
+  border: solid #e2e9f3 1px;
+  box-shadow: 0px 0px 50px #e2e9f3;
+  margin:0 5px;
+  background-color: white; 
+}
+.container2 .cir li img{
+  padding: 73px 37px;
+}
+@media screen and (max-width: 1000px) {
+  .container2 .cir {
+    display: none;
+  }
+}
+.coin{
+  animation: scale6 3s forwards;
+  position: absolute;
+  top:150px; right: 60px;
+  z-index: 9999;
+}
+.phon{
+  animation: scale3 3s forwards ;
+  position: absolute;
+  top:200px; right: 0;
+  z-index: 9999;
+}
+.bg{
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  right: -200px;
+}
+.bg li{
+  border-radius: 50%;
+}
+.bottom1{
+  background-color: #e2e9f3;
+  width: 640px; height: 640px;
+position: absolute;  z-index: 999;
+top:450px; right: 175px; 
+animation: scale1 2s forwards alternate
+}
+.bottom2{
+  background-color: #ebf0f7;
+  position: absolute;
+  top:350px; right: 90px;
+  width: 820px; height: 820px;
+  z-index: 99;
+  animation: scale2 2s forwards alternate
+}
+.bottom3{
+  background-color: #f5f7fb;
+  position: absolute;
+  top:250px; right: 0;
+  width:1000px; height: 1000px;
+  z-index: 9;
+  animation: scale3 2s forwards alternate;
+}
+@keyframes scale1 {
+  0%   { transform: scale(0) }
+  100%  { transform: scale(1) }
+}
+@keyframes scale2 {
+  0%, 40% { transform: scale(0) }
+  100% {transform: scale(1) }
+}
+@keyframes scale3 {
+  0%, 65% { transform: scale(0) }
+  100% { transform: scale(1) }
+}
+@keyframes scale4 {
+  0%, 80% { transform: scale(0) }
+  100% { transform: scale(1) }
+}
+@keyframes scale6 {
+  0%, 60%{ transform: scale(0)}
+
+    85% {
+    -webkit-transform: translateY(100px);
+}
+}
+@keyframes scale5 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+  0%,95% { transform: scale(0) }
+  100% { transform: scale(1) }
+}
+
+
+
