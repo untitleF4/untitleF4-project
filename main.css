@@ -3,6 +3,10 @@
     
 /* 공통 */
 
+    html {
+      scroll-behavior: smooth;
+    }
+
     body{
         font-family: "Poppins","Pretendard",sans-serif;
         margin: 0;
@@ -501,7 +505,7 @@ div.wrap_content3{
 
             .wrap_content3 main .content_box {
                 margin: 10.938vw 0 12.552vw;
-                /* padding: 20px; */
+                padding: 0 13%;
                 display: flex;
                 text-align: left;
             }
@@ -563,5 +567,11 @@ div.wrap_content3{
 
             .wrap_content3 main .content_box .txtBox a:visited{
                 color: #222;
+            }
+            .wrap_content3 main .content_box .txtBox a .material-symbols-outlined {
+              transition: .4s;
+            }
+            .wrap_content3 main .content_box .txtBox a:hover .material-symbols-outlined {
+              transform: translateX(7px);
             }
  
