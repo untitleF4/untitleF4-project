@@ -34,16 +34,13 @@ header { z-index: 2;
 header h1 {
   width: 125px;
   height: 30px;
-  background: url(./header-image/logo.png) no-repeat center center;
+  background: url(./images/logo.png) no-repeat center center;
   background-size: 100% auto;
 }
-<<<<<<< HEAD
-=======
 header > a {
   display: block;
 }
 
->>>>>>> 01baea97d3bd08d292ab1603b2d557c5547749d9
 header ul {
   font-size: 17px;
   font-weight: 500;
@@ -287,11 +284,7 @@ footer .footer_box a {
   position: fixed;
   right: 60px;
   bottom: 60px;
-<<<<<<< HEAD
-  background-image: url(./header-image/arrow_top.png);
-=======
   background-image: url(./images/arrow_top.png); 
->>>>>>> 01baea97d3bd08d292ab1603b2d557c5547749d9
   background-size: 100%;
 }
 footer .footer_box ul {
