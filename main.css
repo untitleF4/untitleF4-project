@@ -505,7 +505,7 @@ div.wrap_content3{
 
             .wrap_content3 main .content_box {
                 margin: 10.938vw 0 12.552vw;
-                padding: 0 13%;
+                /* padding: 0 13%; */
                 display: flex;
                 text-align: left;
             }
