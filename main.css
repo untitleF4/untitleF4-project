@@ -466,7 +466,7 @@ div.wrap_content3{
 
             .wrap_footer footer {
                 background-color: #222;
-                color: #444;
+                color: rgb(102, 102, 102)
                 padding: 60px;
                 text-align: center;
                 display: flex;
@@ -491,7 +491,7 @@ div.wrap_content3{
             }
             .wrap_footer footer .footer_box ul li {
                 font-size: 15px;
-                color: #444;
+                color: #rgb(102, 102, 102);
             }
             .wrap_footer footer .footer_box ul li span {
                 padding: 0 18px;
